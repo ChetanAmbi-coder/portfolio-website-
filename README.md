@@ -1,5 +1,5 @@
 ### ATTENTION READERS THIS IS MY PERSONAL PORTFOLIO,MY RESUME WHO I'M AND WHAT I'M DOING NOW EVERYTHING IS THERE IN THIS REPOSITORY
-LINK:- https://chetan-ambi-netizen.github.io/portfolio-website-/
+LINK:- https://ChetanAmbi-coder.github.io/portfolio-website-/
 DON'T FORK THIS REPOSITORY IT'S MY PORTFOLIO......
 Thank you 
 
