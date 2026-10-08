@@ -136,10 +136,10 @@ function fallbackContribGraph() {
   if (!img || img.dataset.tried) return;
   img.dataset.tried = '1';
   // Try alternate service
-  img.src = 'https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chetan-AMBI-netizen&theme=github_dark';
+  img.src = 'https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChetanAmbi-coder&theme=github_dark';
   img.onerror = () => {
     img.closest('.github-graph-wrap').innerHTML =
-      '<p class="font-mono text-xs text-text-faint p-6 text-center">Graph unavailable. <a href="https://github.com/Chetan-AMBI-netizen" target="_blank" class="text-cyan underline">View on GitHub →</a></p>';
+      '<p class="font-mono text-xs text-text-faint p-6 text-center">Graph unavailable. <a href="https://github.com/ChetanAmbi-coder" target="_blank" class="text-cyan underline">View on GitHub →</a></p>';
     checkAllFailed();
   };
 }
@@ -152,7 +152,7 @@ function fallbackHeatmap() {
   img.src = 'https://ghchart.rshah.org/26a641/Chetan-AMBI-netizen';
   img.onerror = () => {
     img.closest('.github-graph-wrap').innerHTML =
-      '<p class="font-mono text-xs text-text-faint p-6 text-center">Heatmap unavailable. <a href="https://github.com/Chetan-AMBI-netizen" target="_blank" class="text-cyan underline">View on GitHub →</a></p>';
+      '<p class="font-mono text-xs text-text-faint p-6 text-center">Heatmap unavailable. <a href="https://github.com/ChetanAmbi-coder" target="_blank" class="text-cyan underline">View on GitHub →</a></p>';
     checkAllFailed();
   };
 }
